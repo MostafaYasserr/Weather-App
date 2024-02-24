@@ -25,7 +25,7 @@ class WeatherApp extends StatelessWidget {
                   color: getThemeColor(BlocProvider.of<GetWeatherCubit>(context).weatherModel?.weatherDescription),
                 ),
               ),
-              debugShowCheckedModeBanner: true,
+              debugShowCheckedModeBanner: false,
               home: const HomePage(),
             );
           },
